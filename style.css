@@ -1,0 +1,367 @@
+body{
+	background-image: url(images/background.jpg);
+	font-family: 
+}
+
+@font-face{
+	font-family: swis721;
+	src:url("fonts/swis721.ttf");
+}
+
+.nvbr{
+	background: #330099;
+	height: 50px;
+	width: 101.1%;
+	padding-top: 0px;
+}
+
+.menu1{
+	color: #FFFFFF;
+	text-transform: 100;
+}
+
+.menu2{
+	padding-top: 0px;
+	color: #FFFFFF;	
+}
+
+.foto{
+	position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 90px;
+    margin-left: -84px;
+    left: 50%;
+    border:8px solid #FFFFFF;
+    transition: width 0.5s ,height 0.5s ,transform 0.2s;
+}
+.foto:hover{
+	height: 250px;
+	width: 250px;
+}
+
+.personal{
+	background: #0099FF;
+	height: 460px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    position: relative;
+    font-size: 16px;
+}
+
+.nama{
+	font-size: 45px;
+	margin-top: 35px;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    padding-top: 180px;
+}
+
+hr.style1 {
+    border: 5;
+    height: 3px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+.deskripsi{
+	font-size: 24px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-top: -15px;
+}
+
+.kontak{
+	background:  #0066CC;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: swis721;
+}
+
+.email,.phone,.blog,.lokasi{
+	margin-left: 20px;
+}
+
+.section{
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.14);
+  	padding: 45px;
+  	background: #FFFFFF;
+  	margin-bottom: 45px;
+  	border-radius: 30px;
+  	background-clip: padding-box;
+  	font-family: swis721;
+}
+
+.judul{
+	margin-top: 0;
+    margin-bottom: 45px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.about{
+	margin-top: 45px;
+	color: #FFFFFF;
+	background: #33FF33;
+	border:4px solid #FF6600;
+}
+
+.tulisan-about{
+	color: #000000;
+}
+
+.about-tulis{
+	font-size: 16px;
+}
+.education{
+	background:  #FFFF99;
+	color: #000000;
+	border:4px solid #3300FF;
+}
+
+.skill{
+	background:  #CC6633;
+	color: #FFFFFF;
+	border:4px solid #FFFF00;
+}
+
+.testimonial{
+	background: #6699FF;
+	color: #FFFFFF;
+	border:4px solid #FF0033;
+}
+
+.judul-testi{
+	margin-bottom: 50px;
+	color:  #FFFFFF;
+}
+
+.nama-orang{
+	color: #000000;
+	font-size: 20px;
+}
+
+.foto-trans1{
+	position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 70px;
+    margin-top: 150px;
+    margin-left: -110px;
+    left: 50%;
+    border:8px solid #FFFFFF;
+    transition: width 0.5s ,height 0.5s ,transform 0.2s;
+}
+.foto-trans1:hover{
+	height: 230px;
+	width: 230px;
+}
+
+.foto-trans2{
+	position: none;
+    width: 200px;
+    height: 200px;
+    bottom: 70px;
+    margin-top: -5px;
+    margin-left: -5px;
+    left: 50%;
+    border:8px solid #FFFFFF;
+    transition: width 0.5s ,height 0.5s ,transform 0.2s;
+}
+.foto-trans2:hover{
+	height: 230px;
+	width: 230px;
+}
+
+.foto-testi{
+	margin-left: -10px;
+}
+
+.testi-foto{
+	position: absolute;
+    width: 220px;
+    height: 220px;
+    top: 180px;
+    margin-left: -120px;
+    left: 50%;
+    border:8px solid #FFFFFF;
+    transition: width 0.5s ,height 0.5s ,transform 0.2s;
+}
+
+.transisi-muter{ 
+	 transition:width 5s, height 5s;
+	 -moz-transition:width 5s, height 5s, -moz-transform 2s;
+	 -webkit-transition:width 5s, height 5s, -webkit-transform 2s;
+	 -o-transition:width 5s, height 5s, -o-transform 2s;
+	}
+
+.transisi-muter:hover {
+    transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+	}
+
+.portofolio{
+	background:   #006666;
+	color: #FFFFFF;
+	border:4px solid #FFFF00;
+}
+
+.footer{
+    height: 50px;
+    width: auto;
+ 	margin-left: -105px;
+ 	margin-right: -104px;
+ 	margin-bottom: 10px;
+    background: #330099;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding-top: 15px;
+    padding-left:;
+    }
+
+.edu{
+	padding: 0 30px;
+}
+
+.nama-sekolah1{
+	font-size: 25px;
+    color: #3300FF;
+    padding-top: 10px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.nama-sekolah2{
+	font-weight: 500;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.singkatan-sekolah{
+	padding-top: 10px;
+}
+
+.sekolah-dasar{
+	margin-left: -45px;
+}
+
+.sekolah-smp{
+	margin-left: -42px;
+}
+
+.sekolah-smk{
+	margin-left: -20px;
+}
+
+.tahun{
+	color: #0099CC;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.tahun-jarak{
+	padding-top: 5px;
+}
+
+.jurusan{
+	color: #696969;
+	text-align: justify;
+	font-size: 16px;
+}
+
+#myProgress {
+    width: 40%;
+    background-color: #FFFFFF;
+}
+
+#computer {
+    width: 92%;
+    height: 25px;
+    background-color: #0000FF;
+    text-align: center; 
+    line-height: 30px; 
+}
+
+#networking {
+    width: 88%;
+    height: 25px;
+    background-color: #0000FF;
+    text-align: center; 
+    line-height: 30px; 
+}
+
+#design {
+    width: 75%;
+    height: 25px;
+    background-color: #0000FF;
+    text-align: center; 
+    line-height: 30px; 
+}
+
+#web {
+    width: 70%;
+    height: 25px;
+    background-color: #0000FF;
+    text-align: center; 
+    line-height: 30px; 
+}
+
+.persen{
+	margin-left: 80px;
+}
+
+.judul-skil{
+	padding-left: 80px;
+	padding-right: 250px;
+}
+
+.tulis-skil{
+	padding-left: 80px;
+	padding-right: 250px;
+	font-size: 16px;
+}
+
+.judul-portofolio{
+	font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-weight: 300;
+}
+
+.gambar-portofolio1{
+	margin-left: -1px;
+	border:5px solid #FFFFFF;
+}
+
+.gambar-portofolio2{
+	margin-left: -15px;
+	border:5px solid #FFFFFF;
+}
+
+.transi-portofolio{
+  	position: relative;
+  	float: left;
+  	width: 600px;
+  	max-height: 350px;
+  	cursor: pointer
+}
+
+.transi-portofolio:hover{
+	margin: 0;
+  	list-style: none;
+  	width: 1300px;
+  	height: 700px
+}
+
+
